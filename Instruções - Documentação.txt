@@ -1,0 +1,109 @@
+COMO EXECUTAR O PROJETO NO VS CODE 📚💻
+
+Este projeto foi desenvolvido em Python e gera automaticamente uma planilha Excel com dados de biblioteca utilizando uma API pública.
+
+==================================================
+1. INSTALAR O PYTHON
+==================================================
+
+Baixe e instale o Python:
+
+https://www.python.org/downloads/
+
+⚠️ IMPORTANTE:
+Durante a instalação, marque a opção:
+
+[✔] Add Python to PATH
+
+Depois finalize a instalação.
+
+==================================================
+2. INSTALAR O VISUAL STUDIO CODE
+==================================================
+
+Baixe o VS Code:
+
+https://code.visualstudio.com/
+
+Instale normalmente.
+
+==================================================
+3. ABRIR O PROJETO
+==================================================
+
+1. Extraia o arquivo .zip do projeto
+2. Abra o VS Code
+3. Clique em:
+
+Arquivo> Abrir diretório
+
+4. Escolha a pasta do projeto
+
+==================================================
+4. INSTALAR AS DEPENDÊNCIAS
+==================================================
+
+Abra o terminal do VS Code:
+
+Terminal > New Terminal
+
+Execute:
+
+pip install -r requirements.txt
+
+O sistema instalará automaticamente:
+- requests
+- pandas
+- openpyxl
+
+==================================================
+5. EXECUTAR O PROJETO
+==================================================
+
+No terminal execute:
+
+API_Livro.py
+
+ou 
+
+Baixe o arquivo e abra diretamente pela IDE VS.
+
+==================================================
+
+O sistema:
+
+✅ Busca livros automaticamente
+✅ Busca autores reais
+✅ Busca editoras
+✅ Gera IDs automáticos
+✅ Cria empréstimos fictícios
+✅ Abre uma janela para escolher onde salvar
+✅ Exporta uma planilha Excel (.xlsx)
+
+==================================================
+7. RESULTADO
+==================================================
+
+Será gerado um arquivo Excel contendo:
+
+- livros
+- autores
+- editoras
+- usuários
+- empréstimos
+
+Pronto para utilização no:
+- MySQL Workbench
+- SQL Server
+- PostgreSQL
+- estudos de modelagem de banco de dados
+
+==================================================
+8. OBSERVAÇÃO
+==================================================
+
+O projeto utiliza internet para buscar os livros
+pela API Open Library.
+
+Caso a API esteja indisponível,
+alguns dados podem não ser retornados.
